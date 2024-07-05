@@ -35,7 +35,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'real-time-chat-48wz.onrender.com']
+
+CSRF_TRUSTED_ORIGINS = ['https://real-time-chat-48wz.onrender.com']
 
 
 # Application definition
